@@ -1,2 +1,14 @@
-@import './common';
-@import './example';
+@import './base/reset';
+@import './base/common';
+
+@import './components/container';
+@import './components/section';
+@import './components/button';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/tasks';
+@import './layout/projects';
+@import './layout/form';
+@import './layout/footer';

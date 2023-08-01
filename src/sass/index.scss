@@ -1,9 +1,11 @@
 @import './base/reset';
 @import './base/common';
+@import './base/hidden';
 
 @import './components/container';
 @import './components/section';
 @import './components/button';
+@import './components/title';
 
 @import './layout/header';
 @import './layout/hero';

@@ -13,6 +13,7 @@
   letter-spacing: 2.4px;
   text-transform: uppercase;
   border: none;
+  color: #333;
   background-color: #fff;
   transition: transform 300ms linear;
 
@@ -21,8 +22,18 @@
   }
 }
 
+.dark-btn {
+  color: #fff;
+  background-color: #333;
+}
+
 .arrow-btn {
+  fill: #333;
   width: 18px;
   height: 18px;
   transition: transform 300ms linear;
+}
+
+.dark-arrow-btn {
+  fill: #fff;
 }

@@ -1,0 +1,66 @@
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.projects-btn {
+  margin-left: auto;
+}
+
+.projects-item {
+  position: relative;
+  overflow: hidden;
+  &:hover .projects-text-overlay {
+    transform: translateX(0);
+  }
+}
+
+.projects-text-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-left: 18px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(-100%);
+  background-color: rgba($color: #333, $alpha: 0.8);
+  transition: transform 300ms linear;
+}
+
+.overlay-title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+
+.overlay-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #BDBDBD;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.overlay-arrow {
+  width: 14px;
+  height: 14px;
+  fill: #BDBDBD;
+}

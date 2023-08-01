@@ -1,0 +1,40 @@
+.tasks-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.tasks-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasks-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.tasks-number {
+  height: 100%;
+  font-family: 'Alfa Slab One';
+  color: #F2F2F2;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tasks-text {
+width: 280px;
+color: #333;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+}
+
+.tasks-text-two {
+  width: 420px;
+}
